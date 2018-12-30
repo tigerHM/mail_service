@@ -27,7 +27,7 @@ public class SendMailUtil {
         try {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom(sender);
-            message.setTo("197480460@qq.com");
+            message.setTo("*********@qq.com");
             message.setSubject("主题邮件：验证码");
             String str = "";
             Random random = new Random();
